@@ -3,9 +3,15 @@
     font-family: 'Gemunu Libre', sans-serif;
 }
 h1{
-    color: blue;
+    color: gray;
     text-align: center;
 }
 p{
     color: gray;
+}
+body{
+    background-image: url(../imagenes/portada.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

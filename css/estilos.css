@@ -4,10 +4,17 @@
 *{
     font-family: 'Inconsolata', monospace;
 }
+header{
+    position:absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    height:200px;
+    margin-top:-100px;
+    text-align: center;
+}
 h1{
     color: rgba(1,1,1,.7);
-    text-align: center;
-    margin-top: 275px;
     font-size: 120px;
 }
 h1:hover{
@@ -16,7 +23,7 @@ h1:hover{
     text-shadow:0 0 1em rgba(255,255,255,.6), 0 0 0.2em rgba(255,255,255,.6);
     transition: background-color 1s, text-shadow 2s, color 3s;
     border-radius: 15px;
-    height: 280px;
+    height: content-box;
 }
 .portada{
     background-image: url(../imagenes/portada.webp);
@@ -29,6 +36,26 @@ h1:hover{
     width:100%;
     height:100%;
 }
-.mas{
-    background-color: gray;
+.menu{
+    background-image: url
+    color: whitesmoke;
+    position:fixed;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-color: rgba(0,0,0,.5);
+    font-weight: 300;
+    font-size: 25px;
+    z-index:10;
+}
+nav{
+    float: right;
+}
+li{
+    display: none;
+}
+ul{
+    margin:0;
+    display:inline-block;
 }

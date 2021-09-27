@@ -36,26 +36,4 @@ h1:hover{
     width:100%;
     height:100%;
 }
-.menu{
-    background-image: url
-    color: whitesmoke;
-    position:fixed;
-    top:0;
-    left:0;
-    width:50px;
-    height:50px;
-    background-color: rgba(0,0,0,.5);
-    font-weight: 300;
-    font-size: 25px;
-    z-index:10;
-}
-nav{
-    float: right;
-}
-li{
-    display: none;
-}
-ul{
-    margin:0;
-    display:inline-block;
-}
+

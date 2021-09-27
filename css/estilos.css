@@ -47,7 +47,7 @@ li{
 ul{
     display:inline;
 }
-ul:hover{
+ul li:hover{
 
 }
 

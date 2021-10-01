@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inconsolata:wght@800&display=swap');
 *{
     font-family: 'Inconsolata', monospace;
     margin:0;
     padding:0;
 }
-.fondo{
+.fond{
     background-image: url("../imagenes/portada.webp");
     position: fixed;
     left:0;
@@ -37,19 +35,14 @@ header>h1:hover{
     text-shadow:0 0 1em rgba(255,255,255,.6), 0 0 0.2em rgba(255,255,255,.6);
 
 }
-main{
-    position:absolute;
-    background-color: rgba(1,1,1,0.4);
-    color:white;
-    top:100%;
-    width:100%;
-    left:0;
-}
 h2{
     text-align: center;
 }
 
-/*menu*/
+/*--------------------menu*/
+.menu{
+    z-index:100;
+}
 nav{
     position: fixed;
     text-align: center;
@@ -102,6 +95,58 @@ nav>ul>li>ul>li:hover .sub {
     opacity: 1;
     color: white;
 }
+/*------------------------*/
+
+section>.tres{
+    width: 33%;
+    height: 500px;
+    float: left;
+    padding: 1px;
+    margin-left:3px;
+}
+#sob{
+    position:absolute;
+    top:100%;
+}
+section>h2{
+    padding:5px;
+    font-size:30px;
+    border-top:1px solid black;
+}
+.inferior{
+    position:absolute;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+#izq{
+    background-color:rgba(255,255,255,.5);
+}
+#cen{
+    background-color:rgba(1,1,1,.5);
+    color:white;
+    border:rgba(255,255,255,0);
+}
+#der{
+    background-color:rgba(255,255,255,.5);
+}
+h3{
+    text-align:center;
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1550px) {
+    section>.tres {
+        width: 90%;
+        margin: 5%;
+    }
+}
+
 
 
 

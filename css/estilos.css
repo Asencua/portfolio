@@ -30,13 +30,17 @@ header>h1{
 }
 header>h1:hover{
     color: black;
-    background-color: rgba(0,2,1,.4);
-
-.yo{
+    background-color: rgba(0, 2, 1, .4);
+}
+.circle>img{
     width:300px;
     height:300px;
     border-radius:150px;
     border:10px solid #666;
+    display:none;
+}
+header>h1:hover .circle>img{
+    display:block;
 }
 h2{
     text-align: center;
